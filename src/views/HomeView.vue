@@ -57,7 +57,8 @@ export default {
 
 <style scoped>
 .about {
-  width: 100%;
+  width: 100vw;
+  max-width: 1240px;
   height: 100vh;
   padding: 10px;
 }
