@@ -14,13 +14,13 @@ const pwaOptions: Partial<VitePWAOptions> = {
   base: '/',
   includeAssets: ['favicon.svg'],
   manifest: {
-    theme_color: '#f69435',
-    background_color: '#f69435',
+    theme_color: '#8936FF',
+    background_color: '#2EC6FE',
     display: 'standalone',
     scope: '/',
     start_url: '/',
-    name: 'Portfolio | Jerome Pangilinan',
-    short_name: 'Jerome',
+    name: 'Video Meeting Room | Jerome Pangilinan',
+    short_name: 'Video Meeting (PWA)',
     description: "Jerome Pangilinan's portfolio website",
     icons: [
       {
