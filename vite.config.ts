@@ -82,7 +82,7 @@ function virtualMessagePlugin() {
 // eslint-disable-next-line no-constant-condition
 if (true) {
   pwaOptions.srcDir = 'src'
-  pwaOptions.filename = claims ? 'claims-sw.ts' : 'prompt-sw.ts'
+  pwaOptions.filename = claims ? 'claims-sw.js' : 'prompt-sw.js'
   pwaOptions.strategies = 'injectManifest'
   // ;(pwaOptions.manifest as Partial<ManifestOptions>).name = 'PWA Inject Manifest'
   // ;(pwaOptions.manifest as Partial<ManifestOptions>).short_name = 'PWA Inject'
