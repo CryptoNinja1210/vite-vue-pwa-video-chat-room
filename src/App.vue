@@ -1,5 +1,7 @@
 <script setup lang="ts">
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { RouterLink, RouterView } from 'vue-router'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import HelloWorld from './components/HelloWorld.vue'
 import PWAPrompt from './PWAPrompt.vue'
 </script>
