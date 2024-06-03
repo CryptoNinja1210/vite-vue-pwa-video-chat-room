@@ -14,13 +14,13 @@ const pwaOptions: Partial<VitePWAOptions> = {
   base: '/',
   includeAssets: ['favicon.svg'],
   manifest: {
-    theme_color: '#f69435',
-    background_color: '#f69435',
+    theme_color: '#8936FF',
+    background_color: '#2EC6FE',
     display: 'standalone',
     scope: '/',
     start_url: '/',
-    name: 'Portfolio | Jerome Pangilinan',
-    short_name: 'Jerome',
+    name: 'Video Meeting Room | Jerome Pangilinan',
+    short_name: 'Video Meeting (PWA)',
     description: "Jerome Pangilinan's portfolio website",
     icons: [
       {
@@ -82,7 +82,7 @@ function virtualMessagePlugin() {
 // eslint-disable-next-line no-constant-condition
 if (true) {
   pwaOptions.srcDir = 'src'
-  pwaOptions.filename = claims ? 'claims-sw.ts' : 'prompt-sw.ts'
+  pwaOptions.filename = claims ? 'claims-sw.js' : 'prompt-sw.js'
   pwaOptions.strategies = 'injectManifest'
   // ;(pwaOptions.manifest as Partial<ManifestOptions>).name = 'PWA Inject Manifest'
   // ;(pwaOptions.manifest as Partial<ManifestOptions>).short_name = 'PWA Inject'
