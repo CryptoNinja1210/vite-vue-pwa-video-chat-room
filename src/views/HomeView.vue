@@ -1,9 +1,12 @@
 <template>
   <div class="about">
     <hms-prebuilt v-if="show" :room-code="roomCode"></hms-prebuilt>
-    <div class="input-invite-code" v-else>
-      <input v-model="roomCode" />
-      <button @click="start">Show</button>
+    <div class="input-code" v-else>
+      Welcome to Jerome's Video Meeting Room
+      <div class="input-invite-code">
+        <input v-model="roomCode" />
+        <button @click="start">Show</button>
+      </div>
     </div>
   </div>
 </template>
@@ -71,10 +74,18 @@ export default defineComponent({
   padding: 10px;
 }
 
+.input-code {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto 100px;
+}
+
 .input-invite-code {
   display: flex;
   justify-content: center;
-  margin: 100px auto 100px;
+  margin-top: 20px;
 }
 
 .input-invite-code input {
