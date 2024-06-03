@@ -14,8 +14,8 @@ const pwaOptions: Partial<VitePWAOptions> = {
   base: '/',
   includeAssets: ['favicon.svg'],
   manifest: {
-    theme_color: '#f69435',
-    background_color: '#f69435',
+    theme_color: '#6841ea',
+    background_color: '#6841ea',
     display: 'standalone',
     scope: '/',
     start_url: '/',
